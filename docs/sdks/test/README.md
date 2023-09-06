@@ -221,28 +221,13 @@ func main() {
     res, err := s.Test.SearchUsersv1(ctx, shared.Filters{
         Filters: []shared.Filter{
             shared.Filter{
-                Field: "quidem",
-                Matchtype: "architecto",
-                Value: "ipsa",
-            },
-            shared.Filter{
-                Field: "reiciendis",
-                Matchtype: "est",
-                Value: "mollitia",
-            },
-            shared.Filter{
-                Field: "laborum",
-                Matchtype: "dolores",
-                Value: "dolorem",
-            },
-            shared.Filter{
-                Field: "corporis",
-                Matchtype: "explicabo",
-                Value: "nobis",
+                Field: "saepe",
+                Matchtype: "quidem",
+                Value: "architecto",
             },
         },
-        Limit: 315428,
-        Offset: 607831,
+        Limit: 60225,
+        Offset: 969810,
     })
     if err != nil {
         log.Fatal(err)
@@ -288,14 +273,14 @@ func main() {
     ctx := context.Background()
     res, err := s.Test.UpdateUserv1(ctx, operations.UpdateUserv1Request{
         UserInput: shared.UserInput{
-            Country: "Guinea",
-            Email: "Keyon_Batz@gmail.com",
-            Firstname: "Yasmeen",
-            Lastname: "Williamson",
-            Nickname: "architecto",
-            Password: "mollitia",
+            Country: "Norway",
+            Email: "Marcos35@yahoo.com",
+            Firstname: "Braulio",
+            Lastname: "Rolfson",
+            Nickname: "enim",
+            Password: "omnis",
         },
-        ID: "3a2fa946-7739-4251-aa52-c3f5ad019da1",
+        ID: "55907aff-1a3a-42fa-9467-739251aa52c3",
     })
     if err != nil {
         log.Fatal(err)
