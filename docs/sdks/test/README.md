@@ -25,21 +25,21 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/test-go-sdk"
+	testgosdk "github.com/speakeasy-sdks/test-go-sdk"
 	"github.com/speakeasy-sdks/test-go-sdk/pkg/models/shared"
 )
 
 func main() {
-    s := test.New()
+    s := testgosdk.New()
 
     ctx := context.Background()
     res, err := s.Test.CreateUserv1(ctx, shared.UserInput{
-        Country: "Niger",
-        Email: "Hunter.Gulgowski96@yahoo.com",
-        Firstname: "Donny",
-        Lastname: "Hoppe",
-        Nickname: "molestiae",
-        Password: "minus",
+        Country: "Slovenia",
+        Email: "Jaycee_Mante@yahoo.com",
+        Firstname: "Rocky",
+        Lastname: "Bernier",
+        Nickname: "quis",
+        Password: "veritatis",
     })
     if err != nil {
         log.Fatal(err)
@@ -76,16 +76,16 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/test-go-sdk"
+	testgosdk "github.com/speakeasy-sdks/test-go-sdk"
 	"github.com/speakeasy-sdks/test-go-sdk/pkg/models/operations"
 )
 
 func main() {
-    s := test.New()
+    s := testgosdk.New()
 
     ctx := context.Background()
     res, err := s.Test.DeleteUserv1(ctx, operations.DeleteUserv1Request{
-        ID: "c8796ed1-51a0-45df-82dd-f7cc78ca1ba9",
+        ID: "a05dfc2d-df7c-4c78-8a1b-a928fc816742",
     })
     if err != nil {
         log.Fatal(err)
@@ -122,11 +122,11 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/test-go-sdk"
+	testgosdk "github.com/speakeasy-sdks/test-go-sdk"
 )
 
 func main() {
-    s := test.New()
+    s := testgosdk.New()
 
     ctx := context.Background()
     res, err := s.Test.GetHealth(ctx)
@@ -164,16 +164,16 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/test-go-sdk"
+	testgosdk "github.com/speakeasy-sdks/test-go-sdk"
 	"github.com/speakeasy-sdks/test-go-sdk/pkg/models/operations"
 )
 
 func main() {
-    s := test.New()
+    s := testgosdk.New()
 
     ctx := context.Background()
     res, err := s.Test.GetUserv1(ctx, operations.GetUserv1Request{
-        ID: "28fc8167-42cb-4739-a059-29396fea7596",
+        ID: "cb739205-9293-496f-aa75-96eb10faaa23",
     })
     if err != nil {
         log.Fatal(err)
@@ -210,24 +210,24 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/test-go-sdk"
+	testgosdk "github.com/speakeasy-sdks/test-go-sdk"
 	"github.com/speakeasy-sdks/test-go-sdk/pkg/models/shared"
 )
 
 func main() {
-    s := test.New()
+    s := testgosdk.New()
 
     ctx := context.Background()
     res, err := s.Test.SearchUsersv1(ctx, shared.Filters{
         Filters: []shared.Filter{
             shared.Filter{
-                Field: "saepe",
-                Matchtype: "quidem",
-                Value: "architecto",
+                Field: "corporis",
+                Matchtype: "explicabo",
+                Value: "nobis",
             },
         },
-        Limit: 60225,
-        Offset: 969810,
+        Limit: 315428,
+        Offset: 607831,
     })
     if err != nil {
         log.Fatal(err)
@@ -262,25 +262,25 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/test-go-sdk"
+	testgosdk "github.com/speakeasy-sdks/test-go-sdk"
 	"github.com/speakeasy-sdks/test-go-sdk/pkg/models/operations"
 	"github.com/speakeasy-sdks/test-go-sdk/pkg/models/shared"
 )
 
 func main() {
-    s := test.New()
+    s := testgosdk.New()
 
     ctx := context.Background()
     res, err := s.Test.UpdateUserv1(ctx, operations.UpdateUserv1Request{
         UserInput: shared.UserInput{
-            Country: "Norway",
-            Email: "Marcos35@yahoo.com",
-            Firstname: "Braulio",
-            Lastname: "Rolfson",
-            Nickname: "enim",
-            Password: "omnis",
+            Country: "Guinea",
+            Email: "Keyon_Batz@gmail.com",
+            Firstname: "Yasmeen",
+            Lastname: "Williamson",
+            Nickname: "architecto",
+            Password: "mollitia",
         },
-        ID: "55907aff-1a3a-42fa-9467-739251aa52c3",
+        ID: "3a2fa946-7739-4251-aa52-c3f5ad019da1",
     })
     if err != nil {
         log.Fatal(err)

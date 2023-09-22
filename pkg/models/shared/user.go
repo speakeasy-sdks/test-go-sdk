@@ -3,6 +3,7 @@
 package shared
 
 import (
+	"github.com/speakeasy-sdks/test-go-sdk/pkg/utils"
 	"time"
 )
 
@@ -69,6 +70,17 @@ type User struct {
 	Nickname   string     `json:"nickname"`
 	Password   string     `json:"password"`
 	Updatedate *time.Time `json:"updatedate,omitempty"`
+}
+
+func (u User) MarshalJSON() ([]byte, error) {
+	return utils.MarshalJSON(u, "", false)
+}
+
+func (u *User) UnmarshalJSON(data []byte) error {
+	if err := utils.UnmarshalJSON(data, &u, "", false, false); err != nil {
+		return err
+	}
+	return nil
 }
 
 func (o *User) GetCountry() string {
