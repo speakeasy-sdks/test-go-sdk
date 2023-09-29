@@ -1,5 +1,6 @@
 # Test SDK
 
+
 ## Overview
 
 User API for Speakeasy template service: The Rest Template API is an API used for instrucitonal purposes.
@@ -34,12 +35,12 @@ func main() {
 
     ctx := context.Background()
     res, err := s.Test.CreateUserv1(ctx, shared.UserInput{
-        Country: "Slovenia",
-        Email: "Jaycee_Mante@yahoo.com",
-        Firstname: "Rocky",
-        Lastname: "Bernier",
-        Nickname: "quis",
-        Password: "veritatis",
+        Country: "Benin",
+        Email: "Della67@yahoo.com",
+        Firstname: "Enrique",
+        Lastname: "Ernser",
+        Nickname: "Missouri Rap",
+        Password: "x1B29WwlhtAAexb",
     })
     if err != nil {
         log.Fatal(err)
@@ -85,7 +86,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.Test.DeleteUserv1(ctx, operations.DeleteUserv1Request{
-        ID: "a05dfc2d-df7c-4c78-8a1b-a928fc816742",
+        ID: "<ID>",
     })
     if err != nil {
         log.Fatal(err)
@@ -173,7 +174,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.Test.GetUserv1(ctx, operations.GetUserv1Request{
-        ID: "cb739205-9293-496f-aa75-96eb10faaa23",
+        ID: "<ID>",
     })
     if err != nil {
         log.Fatal(err)
@@ -221,13 +222,13 @@ func main() {
     res, err := s.Test.SearchUsersv1(ctx, shared.Filters{
         Filters: []shared.Filter{
             shared.Filter{
-                Field: "corporis",
-                Matchtype: "explicabo",
-                Value: "nobis",
+                Field: "Rubber",
+                Matchtype: "Garden exactly",
+                Value: "Tuna payment pixel",
             },
         },
-        Limit: 315428,
-        Offset: 607831,
+        Limit: 15165,
+        Offset: 728590,
     })
     if err != nil {
         log.Fatal(err)
@@ -273,14 +274,14 @@ func main() {
     ctx := context.Background()
     res, err := s.Test.UpdateUserv1(ctx, operations.UpdateUserv1Request{
         UserInput: shared.UserInput{
-            Country: "Guinea",
-            Email: "Keyon_Batz@gmail.com",
-            Firstname: "Yasmeen",
-            Lastname: "Williamson",
-            Nickname: "architecto",
-            Password: "mollitia",
+            Country: "Reunion",
+            Email: "Anjali_Mann@gmail.com",
+            Firstname: "Miracle",
+            Lastname: "Bosco",
+            Nickname: "Specialist Hatchback",
+            Password: "vhIQt3JjvnhAdWu",
         },
-        ID: "3a2fa946-7739-4251-aa52-c3f5ad019da1",
+        ID: "<ID>",
     })
     if err != nil {
         log.Fatal(err)

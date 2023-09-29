@@ -25,12 +25,12 @@ func main() {
 
     ctx := context.Background()
     res, err := s.CreateUserv1(ctx, shared.UserInput{
-        Country: "Niger",
-        Email: "Hunter.Gulgowski96@yahoo.com",
-        Firstname: "Donny",
-        Lastname: "Hoppe",
-        Nickname: "molestiae",
-        Password: "minus",
+        Country: "Benin",
+        Email: "Della67@yahoo.com",
+        Firstname: "Enrique",
+        Lastname: "Ernser",
+        Nickname: "Missouri Rap",
+        Password: "x1B29WwlhtAAexb",
     })
     if err != nil {
         log.Fatal(err)
@@ -60,8 +60,6 @@ func main() {
 
 <!-- Start Dev Containers -->
 
-
-
 <!-- End Dev Containers -->
 
 
@@ -74,8 +72,6 @@ returned response object will have a `Next` method that can be called to pull do
 return value of `Next` is `nil`, then there are no more pages to be fetched.
 
 Here's an example of one such pagination call:
-
-
 <!-- End Pagination -->
 
 

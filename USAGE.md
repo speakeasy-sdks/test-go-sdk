@@ -16,12 +16,12 @@ func main() {
 
     ctx := context.Background()
     res, err := s.CreateUserv1(ctx, shared.UserInput{
-        Country: "Malta",
-        Email: "Micheal_Sporer@yahoo.com",
-        Firstname: "Karley",
-        Lastname: "Stamm",
-        Nickname: "vel",
-        Password: "error",
+        Country: "Benin",
+        Email: "Della67@yahoo.com",
+        Firstname: "Enrique",
+        Lastname: "Ernser",
+        Nickname: "Missouri Rap",
+        Password: "x1B29WwlhtAAexb",
     })
     if err != nil {
         log.Fatal(err)
