@@ -17,6 +17,7 @@ pkg/utils/requestbody.go
 pkg/utils/retries.go
 pkg/utils/security.go
 pkg/utils/utils.go
+tests/helpers.go
 pkg/models/operations/createuserv1.go
 pkg/models/operations/deleteuserv1.go
 pkg/models/operations/gethealth.go
