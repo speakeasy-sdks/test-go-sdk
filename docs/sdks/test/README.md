@@ -39,8 +39,8 @@ func main() {
         Email: "Della67@yahoo.com",
         Firstname: "Enrique",
         Lastname: "Ernser",
-        Nickname: "panel",
-        Password: "OXx1B29WwlhtAAe",
+        Nickname: "string",
+        Password: "TOXx1B29WwlhtAA",
     })
     if err != nil {
         log.Fatal(err)
@@ -222,13 +222,13 @@ func main() {
     res, err := s.Test.SearchUsersv1(ctx, shared.Filters{
         Filters: []shared.Filter{
             shared.Filter{
-                Field: "Incredible",
-                Matchtype: "migration",
-                Value: "Jordan",
+                Field: "string",
+                Matchtype: "string",
+                Value: "string",
             },
         },
-        Limit: 343466,
-        Offset: 198690,
+        Limit: 230189,
+        Offset: 260836,
     })
     if err != nil {
         log.Fatal(err)
@@ -278,8 +278,8 @@ func main() {
             Email: "Anjali_Mann@gmail.com",
             Firstname: "Miracle",
             Lastname: "Bosco",
-            Nickname: "Investor",
-            Password: "rsrQvhIQt3Jjvnh",
+            Nickname: "string",
+            Password: "_rsrQvhIQt3Jjvn",
         },
         ID: "<ID>",
     })

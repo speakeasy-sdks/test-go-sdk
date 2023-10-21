@@ -20,8 +20,8 @@ func main() {
 		Email:     "Della67@yahoo.com",
 		Firstname: "Enrique",
 		Lastname:  "Ernser",
-		Nickname:  "panel",
-		Password:  "OXx1B29WwlhtAAe",
+		Nickname:  "string",
+		Password:  "TOXx1B29WwlhtAA",
 	})
 	if err != nil {
 		log.Fatal(err)
