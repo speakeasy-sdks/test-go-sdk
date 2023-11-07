@@ -26,15 +26,15 @@ package main
 import(
 	"context"
 	"log"
-	testgosdk "github.com/speakeasy-sdks/test-go-sdk"
-	"github.com/speakeasy-sdks/test-go-sdk/pkg/models/shared"
+	testgosdk "github.com/speakeasy-sdks/test-go-sdk/v2"
+	"github.com/speakeasy-sdks/test-go-sdk/v2/pkg/models/shared"
 )
 
 func main() {
     s := testgosdk.New()
 
     ctx := context.Background()
-    res, err := s.Test.CreateUserv1(ctx, shared.UserInput{
+    res, err := s.CreateUserv1(ctx, shared.UserInput{
         Country: "Benin",
         Email: "Della67@yahoo.com",
         Firstname: "Enrique",
@@ -77,15 +77,15 @@ package main
 import(
 	"context"
 	"log"
-	testgosdk "github.com/speakeasy-sdks/test-go-sdk"
-	"github.com/speakeasy-sdks/test-go-sdk/pkg/models/operations"
+	testgosdk "github.com/speakeasy-sdks/test-go-sdk/v2"
+	"github.com/speakeasy-sdks/test-go-sdk/v2/pkg/models/operations"
 )
 
 func main() {
     s := testgosdk.New()
 
     ctx := context.Background()
-    res, err := s.Test.DeleteUserv1(ctx, operations.DeleteUserv1Request{
+    res, err := s.DeleteUserv1(ctx, operations.DeleteUserv1Request{
         ID: "<ID>",
     })
     if err != nil {
@@ -123,14 +123,14 @@ package main
 import(
 	"context"
 	"log"
-	testgosdk "github.com/speakeasy-sdks/test-go-sdk"
+	testgosdk "github.com/speakeasy-sdks/test-go-sdk/v2"
 )
 
 func main() {
     s := testgosdk.New()
 
     ctx := context.Background()
-    res, err := s.Test.GetHealth(ctx)
+    res, err := s.GetHealth(ctx)
     if err != nil {
         log.Fatal(err)
     }
@@ -165,15 +165,15 @@ package main
 import(
 	"context"
 	"log"
-	testgosdk "github.com/speakeasy-sdks/test-go-sdk"
-	"github.com/speakeasy-sdks/test-go-sdk/pkg/models/operations"
+	testgosdk "github.com/speakeasy-sdks/test-go-sdk/v2"
+	"github.com/speakeasy-sdks/test-go-sdk/v2/pkg/models/operations"
 )
 
 func main() {
     s := testgosdk.New()
 
     ctx := context.Background()
-    res, err := s.Test.GetUserv1(ctx, operations.GetUserv1Request{
+    res, err := s.GetUserv1(ctx, operations.GetUserv1Request{
         ID: "<ID>",
     })
     if err != nil {
@@ -211,15 +211,15 @@ package main
 import(
 	"context"
 	"log"
-	testgosdk "github.com/speakeasy-sdks/test-go-sdk"
-	"github.com/speakeasy-sdks/test-go-sdk/pkg/models/shared"
+	testgosdk "github.com/speakeasy-sdks/test-go-sdk/v2"
+	"github.com/speakeasy-sdks/test-go-sdk/v2/pkg/models/shared"
 )
 
 func main() {
     s := testgosdk.New()
 
     ctx := context.Background()
-    res, err := s.Test.SearchUsersv1(ctx, shared.Filters{
+    res, err := s.SearchUsersv1(ctx, shared.Filters{
         Filters: []shared.Filter{
             shared.Filter{
                 Field: "string",
@@ -263,17 +263,17 @@ package main
 import(
 	"context"
 	"log"
-	testgosdk "github.com/speakeasy-sdks/test-go-sdk"
-	"github.com/speakeasy-sdks/test-go-sdk/pkg/models/operations"
-	"github.com/speakeasy-sdks/test-go-sdk/pkg/models/shared"
+	testgosdk "github.com/speakeasy-sdks/test-go-sdk/v2"
+	"github.com/speakeasy-sdks/test-go-sdk/v2/pkg/models/operations"
+	"github.com/speakeasy-sdks/test-go-sdk/v2/pkg/models/shared"
 )
 
 func main() {
     s := testgosdk.New()
 
     ctx := context.Background()
-    res, err := s.Test.UpdateUserv1(ctx, operations.UpdateUserv1Request{
-        UserInput: shared.UserInput{
+    res, err := s.UpdateUserv1(ctx, operations.UpdateUserv1Request{
+        User: shared.UserInput{
             Country: "Reunion",
             Email: "Anjali_Mann@gmail.com",
             Firstname: "Miracle",

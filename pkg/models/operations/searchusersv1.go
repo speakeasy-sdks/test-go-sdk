@@ -3,7 +3,7 @@
 package operations
 
 import (
-	"github.com/speakeasy-sdks/test-go-sdk/pkg/models/shared"
+	"github.com/speakeasy-sdks/test-go-sdk/v2/pkg/models/shared"
 	"net/http"
 )
 

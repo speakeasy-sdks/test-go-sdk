@@ -6,8 +6,8 @@ package main
 
 import (
 	"context"
-	testgosdk "github.com/speakeasy-sdks/test-go-sdk"
-	"github.com/speakeasy-sdks/test-go-sdk/pkg/models/shared"
+	testgosdk "github.com/speakeasy-sdks/test-go-sdk/v2"
+	"github.com/speakeasy-sdks/test-go-sdk/v2/pkg/models/shared"
 	"log"
 )
 
@@ -15,7 +15,7 @@ func main() {
 	s := testgosdk.New()
 
 	ctx := context.Background()
-	res, err := s.Test.CreateUserv1(ctx, shared.UserInput{
+	res, err := s.CreateUserv1(ctx, shared.UserInput{
 		Country:   "Benin",
 		Email:     "Della67@yahoo.com",
 		Firstname: "Enrique",
