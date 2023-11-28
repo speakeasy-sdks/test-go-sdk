@@ -31,7 +31,6 @@ pkg/utils/utils.go
 /pkg/models/shared/users.go
 /pkg/models/shared/filters.go
 /pkg/models/shared/filter.go
-USAGE.md
 docs/pkg/models/operations/createuserv1response.md
 docs/pkg/models/operations/deleteuserv1request.md
 docs/pkg/models/operations/deleteuserv1response.md
@@ -49,4 +48,5 @@ docs/pkg/models/shared/users.md
 docs/pkg/models/shared/filters.md
 docs/pkg/models/shared/filter.md
 docs/sdks/test/README.md
+USAGE.md
 .gitattributes
