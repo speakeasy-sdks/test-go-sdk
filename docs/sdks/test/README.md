@@ -65,7 +65,7 @@ func main() {
 **[*operations.CreateUserv1Response](../../pkg/models/operations/createuserv1response.md), error**
 | Error Object       | Status Code        | Content Type       |
 | ------------------ | ------------------ | ------------------ |
-| sdkerrors.SDKError | 400-600            | */*                |
+| sdkerrors.SDKError | 4xx-5xx            | */*                |
 
 ## DeleteUserv1
 
@@ -113,7 +113,7 @@ func main() {
 **[*operations.DeleteUserv1Response](../../pkg/models/operations/deleteuserv1response.md), error**
 | Error Object       | Status Code        | Content Type       |
 | ------------------ | ------------------ | ------------------ |
-| sdkerrors.SDKError | 400-600            | */*                |
+| sdkerrors.SDKError | 4xx-5xx            | */*                |
 
 ## GetHealth
 
@@ -158,7 +158,7 @@ func main() {
 **[*operations.GetHealthResponse](../../pkg/models/operations/gethealthresponse.md), error**
 | Error Object       | Status Code        | Content Type       |
 | ------------------ | ------------------ | ------------------ |
-| sdkerrors.SDKError | 400-600            | */*                |
+| sdkerrors.SDKError | 4xx-5xx            | */*                |
 
 ## GetUserv1
 
@@ -206,7 +206,7 @@ func main() {
 **[*operations.GetUserv1Response](../../pkg/models/operations/getuserv1response.md), error**
 | Error Object       | Status Code        | Content Type       |
 | ------------------ | ------------------ | ------------------ |
-| sdkerrors.SDKError | 400-600            | */*                |
+| sdkerrors.SDKError | 4xx-5xx            | */*                |
 
 ## SearchUsersv1
 
@@ -262,7 +262,7 @@ func main() {
 **[*operations.SearchUsersv1Response](../../pkg/models/operations/searchusersv1response.md), error**
 | Error Object       | Status Code        | Content Type       |
 | ------------------ | ------------------ | ------------------ |
-| sdkerrors.SDKError | 400-600            | */*                |
+| sdkerrors.SDKError | 4xx-5xx            | */*                |
 
 ## UpdateUserv1
 
@@ -317,4 +317,4 @@ func main() {
 **[*operations.UpdateUserv1Response](../../pkg/models/operations/updateuserv1response.md), error**
 | Error Object       | Status Code        | Content Type       |
 | ------------------ | ------------------ | ------------------ |
-| sdkerrors.SDKError | 400-600            | */*                |
+| sdkerrors.SDKError | 4xx-5xx            | */*                |

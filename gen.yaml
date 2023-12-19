@@ -2,21 +2,23 @@ configVersion: 1.0.0
 management:
   docChecksum: b3cde103f3a8cd2dc7100b66267790bb
   docVersion: 0.1.0
-  speakeasyVersion: 1.126.0
-  generationVersion: 2.213.3
+  speakeasyVersion: 1.127.0
+  generationVersion: 2.220.0
 generation:
   comments: {}
   sdkClassName: test
   repoURL: https://github.com/speakeasy-sdks/test-go-sdk.git
   usageSnippets:
     optionalPropertyRendering: withExample
+  fixes:
+    nameResolutionDec2023: false
 features:
   go:
-    core: 3.2.0
+    core: 3.2.2
     globalServerURLs: 2.82.1
-    inputOutputModels: 2.82.0
+    inputOutputModels: 2.83.0
 go:
-  version: 2.2.0
+  version: 2.3.0
   clientServerStatusCodesAsErrors: true
   flattenGlobalSecurity: true
   imports:
