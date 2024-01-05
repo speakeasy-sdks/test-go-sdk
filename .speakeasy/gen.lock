@@ -1,0 +1,71 @@
+lockVersion: 2.0.0
+id: 95033966-6736-47ea-8e2a-8af5c01d165b
+management:
+  docChecksum: b3cde103f3a8cd2dc7100b66267790bb
+  docVersion: 0.1.0
+  speakeasyVersion: internal
+  generationVersion: 2.225.2
+  releaseVersion: 2.3.0
+  configChecksum: 24f18e69cb395f17d953d32b61f40819
+  repoURL: https://github.com/speakeasy-sdks/test-go-sdk.git
+  repoSubDirectory: .
+  installationURL: https://github.com/speakeasy-sdks/test-go-sdk
+  published: true
+features:
+  go:
+    core: 3.3.0
+    globalServerURLs: 2.82.1
+    inputOutputModels: 2.83.0
+generatedFiles:
+  - test.go
+  - go.mod
+  - go.sum
+  - tests/helpers.go
+  - pkg/models/sdkerrors/sdkerror.go
+  - pkg/types/bigint.go
+  - pkg/types/date.go
+  - pkg/types/datetime.go
+  - pkg/types/decimal.go
+  - pkg/types/pointers.go
+  - pkg/utils/contenttype.go
+  - pkg/utils/form.go
+  - pkg/utils/headers.go
+  - pkg/utils/json.go
+  - pkg/utils/pathparams.go
+  - pkg/utils/queryparams.go
+  - pkg/utils/requestbody.go
+  - pkg/utils/retries.go
+  - pkg/utils/security.go
+  - pkg/utils/utils.go
+  - /pkg/models/operations/createuserv1.go
+  - /pkg/models/operations/deleteuserv1.go
+  - /pkg/models/operations/gethealth.go
+  - /pkg/models/operations/getuserv1.go
+  - /pkg/models/operations/searchusersv1.go
+  - /pkg/models/operations/updateuserv1.go
+  - /pkg/models/shared/user.go
+  - /pkg/models/shared/error.go
+  - /pkg/models/shared/userinput.go
+  - /pkg/models/shared/success.go
+  - /pkg/models/shared/users.go
+  - /pkg/models/shared/filters.go
+  - /pkg/models/shared/filter.go
+  - docs/pkg/models/operations/createuserv1response.md
+  - docs/pkg/models/operations/deleteuserv1request.md
+  - docs/pkg/models/operations/deleteuserv1response.md
+  - docs/pkg/models/operations/gethealthresponse.md
+  - docs/pkg/models/operations/getuserv1request.md
+  - docs/pkg/models/operations/getuserv1response.md
+  - docs/pkg/models/operations/searchusersv1response.md
+  - docs/pkg/models/operations/updateuserv1request.md
+  - docs/pkg/models/operations/updateuserv1response.md
+  - docs/pkg/models/shared/user.md
+  - docs/pkg/models/shared/error.md
+  - docs/pkg/models/shared/userinput.md
+  - docs/pkg/models/shared/success.md
+  - docs/pkg/models/shared/users.md
+  - docs/pkg/models/shared/filters.md
+  - docs/pkg/models/shared/filter.md
+  - docs/sdks/test/README.md
+  - USAGE.md
+  - .gitattributes
