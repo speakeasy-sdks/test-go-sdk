@@ -3,7 +3,7 @@
 package shared
 
 import (
-	"github.com/speakeasy-sdks/test-go-sdk/v2/pkg/utils"
+	"github.com/speakeasy-sdks/test-go-sdk/v3/pkg/utils"
 	"time"
 )
 
