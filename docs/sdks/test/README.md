@@ -39,7 +39,7 @@ func main() {
         Email: "Della67@yahoo.com",
         Firstname: "Enrique",
         Lastname: "Ernser",
-        Nickname: "string",
+        Nickname: "<value>",
         Password: "TOXx1B29WwlhtAA",
     })
     if err != nil {
@@ -88,7 +88,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.DeleteUserv1(ctx, operations.DeleteUserv1Request{
-        ID: "<ID>",
+        ID: "<id>",
     })
     if err != nil {
         log.Fatal(err)
@@ -181,7 +181,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.GetUserv1(ctx, operations.GetUserv1Request{
-        ID: "<ID>",
+        ID: "<id>",
     })
     if err != nil {
         log.Fatal(err)
@@ -231,9 +231,9 @@ func main() {
     res, err := s.SearchUsersv1(ctx, shared.Filters{
         Filters: []shared.Filter{
             shared.Filter{
-                Field: "string",
-                Matchtype: "string",
-                Value: "string",
+                Field: "<value>",
+                Matchtype: "<value>",
+                Value: "<value>",
             },
         },
         Limit: 230189,
@@ -289,10 +289,10 @@ func main() {
             Email: "Anjali_Mann@gmail.com",
             Firstname: "Miracle",
             Lastname: "Bosco",
-            Nickname: "string",
+            Nickname: "<value>",
             Password: "_rsrQvhIQt3Jjvn",
         },
-        ID: "<ID>",
+        ID: "<id>",
     })
     if err != nil {
         log.Fatal(err)
