@@ -45,7 +45,6 @@ func main() {
     if err != nil {
         log.Fatal(err)
     }
-
     if res.User != nil {
         // handle response
     }
@@ -93,7 +92,6 @@ func main() {
     if err != nil {
         log.Fatal(err)
     }
-
     if res.Success != nil {
         // handle response
     }
@@ -128,7 +126,6 @@ import(
 	testgosdk "github.com/speakeasy-sdks/test-go-sdk/v3"
 	"context"
 	"log"
-	"net/http"
 )
 
 func main() {
@@ -139,8 +136,7 @@ func main() {
     if err != nil {
         log.Fatal(err)
     }
-
-    if res.StatusCode == http.StatusOK {
+    if res != nil {
         // handle response
     }
 }
@@ -186,7 +182,6 @@ func main() {
     if err != nil {
         log.Fatal(err)
     }
-
     if res.User != nil {
         // handle response
     }
@@ -242,7 +237,6 @@ func main() {
     if err != nil {
         log.Fatal(err)
     }
-
     if res.Users != nil {
         // handle response
     }
@@ -297,7 +291,6 @@ func main() {
     if err != nil {
         log.Fatal(err)
     }
-
     if res.User != nil {
         // handle response
     }

@@ -24,7 +24,6 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
 	if res.User != nil {
 		// handle response
 	}
